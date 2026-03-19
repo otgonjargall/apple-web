@@ -178,39 +178,131 @@ section {
   border: 1px solid white;
   padding: 12px 20px;
 }
-.boxcolor {
-  background-color: #f5f5f5;
+.background1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  flex-wrap: wrap;
+  width: 1920px;
+  height: 1764px;
 }
 .box1 {
-  background-color: #f5f5f5;
-}
-
-#ipad {
-  background-image: url("zurag2/ipad.png");
-  width: 940px;
-  height: 580px;
-}
-
-#airpord1 {
-  background-image: url("zurag2/airpod.png");
   width: 942px;
   height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 58px;
+  gap: 4px;
+}
+.boxcolor {
+  width: 942px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+#ipad {
+  background-image: url(zurag2/ipad.png);
+}
+.subtitle {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+}
+.button6 .p1 {
+  background-color: blue;
+  color: white;
+  width: 123px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid white;
+  padding: 12px 20px;
+}
+.button6 .p2 {
+  color: blue;
+  width: 123px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid white;
+  padding: 12px 20px;
+}
+.tems {
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+  background: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 58px;
+}
+#airpod {
+  background-image: url(zurag2/airpod.png);
+  display: flex;
+  justify-content: flex-end;
+}
+.airpod1 {
+  color: white;
+  width: 238px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pod {
+  color: white;
+  width: 370px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button7 .p1 {
+  background-color: blue;
+  color: white;
+  width: 123px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid white;
+  padding: 12px 20px;
+}
+.button7 .p2 {
+  color: blue;
+  width: 123px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid white;
+  padding: 12px 20px;
 }
 #watch {
-  background-image: url("zurag2/watch.png");
-  width: 942px;
-  height: 580px;
+  background-image: url(zurag2/watch.png);
 }
+
 #macbookair {
-  background-image: url("zurag2/macbook.png");
-  width: 942px;
-  height: 580px;
+  background-image: url(zurag2/macbook.png);
 }
 #tradein {
-  background-image: url("zurag2/trade.png");
-  width: 942px;
-  height: 580px;
+  background-image: url(zurag2/trade.png);
 }
 #card {
-  background-image: url("zurag2/card.png");
+  background-image: url(zurag2/card.png);
 }
