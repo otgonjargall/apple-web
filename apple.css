@@ -120,7 +120,7 @@ section {
 }
 
 .button3 {
-  color: white;
+  background-color: white;
   width: 123px;
   border-radius: 999px;
   border: 1px solid wheat;
@@ -129,7 +129,7 @@ section {
 .button3 p1 {
   align-items: center;
   display: flex;
-  color: white;
+  color: black;
 }
 .button4 {
   width: 123px;
@@ -219,6 +219,7 @@ section {
   font-weight: 400;
   line-height: 25px; /* 138.889% */
 }
+
 .button6 .p1 {
   background-color: blue;
   color: white;
@@ -235,6 +236,7 @@ section {
   border-radius: 999px;
   border: 1px solid white;
   padding: 12px 20px;
+  background-color: transparent;
 }
 .tems {
   text-align: center;
@@ -292,11 +294,49 @@ section {
   border-radius: 999px;
   border: 1px solid white;
   padding: 12px 20px;
+  background-color: transparent;
 }
 #watch {
   background-image: url(zurag2/watch.png);
 }
-
+.airpod2 {
+  color: black;
+}
+.pod3 {
+  color: black;
+  width: 322px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button8 .p1 {
+  background-color: blue;
+  color: white;
+  width: 123px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid white;
+  padding: 12px 20px;
+}
+.button8 .p2 {
+  color: blue;
+  width: 123px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid white;
+  padding: 12px 20px;
+  background-color: transparent;
+}
+.button9 .p1 {
+  background-color: blue;
+  color: white;
+  width: 167px;
+  height: 40px;
+  border-radius: 999px;
+  border: 1px solid wheat;
+  padding: 12px 20px;
+}
 #macbookair {
   background-image: url(zurag2/macbook.png);
 }
@@ -305,4 +345,56 @@ section {
 }
 #card {
   background-image: url(zurag2/card.png);
+}
+.scroll {
+  height: 668px;
+  display: flex;
+  overflow: scroll;
+  gap: 16px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  scrollbar-width: none;
+}
+.scrollframe {
+  display: flex;
+  align-items: flex-end;
+}
+.scroll-item {
+  min-width: 1250px;
+  display: flex;
+  align-items: center;
+  padding: 58px;
+  gap: 20px;
+}
+#item1 {
+  background-image: url(zurag3/fly\ me.png);
+}
+#item2 {
+  background-image: url(zurag3/baseball.jpg);
+}
+#item3 {
+  background-image: url(zurag3/bad-monkey.jpg);
+}
+#item4 {
+  background-image: url(zurag3/fly\ me.png);
+}
+#item5 {
+  background-image: url(zurag3/instigators.jpg);
+}
+.tablist {
+  width: 1920px;
+  height: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 12px;
+  scroll-behavior: smooth;
+}
+.item-dot {
+  display: flex;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background: red;
 }
