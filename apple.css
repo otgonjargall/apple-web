@@ -7,7 +7,7 @@ section {
   margin-bottom: 12px;
 }
 .header-menu {
-  width: 1920px;
+  width: 100vw;
   height: 44px;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@ section {
 }
 .header {
   background-color: #f5f5f5;
-  width: 1920px;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,7 +43,7 @@ section {
 }
 .box {
   display: flex;
-  width: 1920px;
+  width: 100vw;
   height: 52px;
   justify-content: center;
   align-items: center;
@@ -51,7 +51,8 @@ section {
 }
 #iphone-1 {
   background-image: url(zurag/iphone\ 17\ pro.png);
-  width: 1920px;
+  background-position: center;
+  width: 100vw;
   height: 692px;
   display: flex;
   justify-content: center;
@@ -61,7 +62,8 @@ section {
 }
 #iphone-2 {
   background-image: url(zurag/iphone16.png);
-  width: 1920px;
+  background-position: center;
+  width: 100vw;
   height: 692px;
   display: flex;
   justify-content: center;
@@ -148,7 +150,8 @@ section {
 
 #mac-1 {
   background-image: url(zurag/m.png);
-  width: 1920px;
+  background-position: center;
+  width: 100vw;
   height: 692px;
   display: flex;
   justify-content: center;
@@ -397,4 +400,39 @@ section {
   height: 8px;
   border-radius: 4px;
   background: red;
+  opacity: 0.75;
+}
+.item-dot:hover {
+  opacity: 1;
+}
+.footer {
+  overflow: scroll;
+  display: flex;
+  justify-content: flex-start;
+}
+.link {
+  width: 100vw;
+  width: 417px;
+  height: 236px;
+}
+#link1 {
+  background-image: url(zurag4/1.jpg);
+}
+#link2 {
+  background-image: url(zurag4/2.jpg);
+}
+#link3 {
+  background-image: url(zurag4/3.jpg);
+}
+#link4 {
+  background-image: url(zurag4/4.jpg);
+}
+#link5 {
+  background-image: url(zurag4/5.jpg);
+}
+#link6 {
+  background-image: url(zurag4/6.jpg);
+}
+#link7 {
+  background-image: url(zurag4/7.jpg);
 }
