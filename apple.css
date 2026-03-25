@@ -456,12 +456,14 @@ section {
 @media (max-width: 768px) {
   .header-menu {
     height: 48px;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
   }
   .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .child p {
     display: none;
@@ -469,25 +471,52 @@ section {
   .box {
     height: 16px;
   }
-  .iphone16pro {
+  #iphone-1 {
     background-image: url(zurag/16pro.png);
+    background-size: cover;
+    width: 768px;
     height: 650px;
   }
-  .iphone16 {
+  #iphone-2 {
     background-image: url(zurag/iphone16.png);
-    width: 650px;
+    background-size: cover;
+    width: 768px;
+    height: 650px;
   }
+
   .background1 {
     height: 100%;
   }
 }
 @media (max-width: 390px) {
-  .iphone16pro {
-    background-image: url(zurag/bosoopro.png);
+  .header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .child p {
+    display: none;
+  }
+  .box {
+    height: 16px;
+  }
+
+  #iphone-1 {
+    background-size: cover;
     width: 390px;
     height: 500px;
+    background-image: url(zurag/bosoopro.png);
   }
-  .iphone16 {
+  #iphone-2 {
     background-image: url(zurag/bosoo.png);
+    width: 390px;
+    height: 500px;
+    background-size: cover;
   }
 }
