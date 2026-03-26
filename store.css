@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.header-menu {
+  background-color: #f5f5f5;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.child {
+  display: flex;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.apple-logo {
+  width: 14px;
+  height: 44px;
+}
+.search-icon {
+  width: 14px;
+  height: 44px;
+}
+.cart-icon {
+  width: 14px;
+  height: 44px;
+}
+.box {
+  display: flex;
+  width: 100%;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.color {
+  width: 100%;
+}
+.store {
+  display: flex;
+  padding: 80px 140px;
+  align-items: center;
+  justify-content: space-between;
+}
+.store-header {
+  column-gap: 32px;
+}
+.rain {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 50%,
+    #f2416b 100%
+  );
+}
+.atom {
+  color: #6e6e73;
+  font-size: 44px;
+  font-weight: 700;
+}
+.store1 {
+  display: flex;
+  row-gap: 16px;
+  flex-direction: column;
+}
+.apple {
+  display: flex;
+  margin-bottom: 60px;
+  padding-inline: 140px;
+}
+.apple-card {
+  padding: 16px 8px;
+}
+.apple-image {
+  width: 120px;
+  height: 78px;
+}
+.mac {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.iphone {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.iphone1 {
+  font-size: 14px;
+  color: #1d1d1f;
+  margin-top: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.ipad {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.watch {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.apple-vision {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.airpord {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.airtag {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.appletv4k {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.homepod {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.accessories {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gift {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
