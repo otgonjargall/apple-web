@@ -190,7 +190,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-position: center;
   gap: 10px;
 }
 .box1 {
