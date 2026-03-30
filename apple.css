@@ -489,14 +489,29 @@ body {
   }
   #ipad {
     background-size: cover;
+    background-position: center;
     width: 366px;
   }
   #watch {
     background-size: cover;
+    background-position: center;
     width: 366px;
   }
   #tradein {
     background-size: cover;
+    background-position: center;
+    width: 366px;
+  }
+  #airpod {
+    background-position: center;
+    width: 366px;
+  }
+  #macbookair {
+    background-position: center;
+    width: 366px;
+  }
+  #card {
+    background-position: center;
     width: 366px;
   }
   #item1 {
